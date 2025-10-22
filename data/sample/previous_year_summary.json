@@ -1,0 +1,13 @@
+{
+  "year": 2023,
+  "metrics": {
+    "Scope1Emissions": {
+      "value": 1300.0,
+      "unit": "tCO2e"
+    },
+    "EnergyConsumption": {
+      "value": 820.0,
+      "unit": "MWh"
+    }
+  }
+}

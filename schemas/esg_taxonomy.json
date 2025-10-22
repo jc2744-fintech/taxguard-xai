@@ -1,0 +1,33 @@
+{
+  "schema": "esg-mini-1.0",
+  "elements": {
+    "Scope1Emissions": {
+      "unit": "tCO2e",
+      "type": "emissions"
+    },
+    "Scope2Emissions": {
+      "unit": "tCO2e",
+      "type": "emissions"
+    },
+    "Scope3Emissions": {
+      "unit": "tCO2e",
+      "type": "emissions"
+    },
+    "EnergyConsumption": {
+      "unit": "MWh",
+      "type": "energy"
+    },
+    "WaterWithdrawal": {
+      "unit": "m3",
+      "type": "water"
+    },
+    "WasteGenerated": {
+      "unit": "t",
+      "type": "waste"
+    },
+    "WomenInLeadership": {
+      "unit": "%",
+      "type": "ratio"
+    }
+  }
+}

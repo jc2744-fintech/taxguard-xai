@@ -1,0 +1,8 @@
+completeness:
+  required: ["scope1","energy","water"]
+consistency:
+  require_units: true
+  non_negative: true
+governance:
+  disclosure_disclaimer: "This ESG summary is AI-assisted and must be reviewed by qualified practitioners."
+  provenance_required: true

@@ -1,0 +1,18 @@
+experiment_name: esg_demo
+ingestion:
+  readers: ["txt","md"]
+extraction:
+  patterns: configs/patterns.yaml
+  year: 2024
+normalization:
+  units: schemas/units.json
+validation:
+  policies: configs/policies.yaml
+  drift_thresholds:
+    scope1: 0.35
+    energy: 0.25
+mapping:
+  taxonomy: schemas/esg_taxonomy.json
+export:
+  outputs: ["md","json"]
+  out_dir: artifacts/demo

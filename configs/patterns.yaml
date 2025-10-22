@@ -1,0 +1,24 @@
+patterns:
+  scope1:
+    - name: "scope1_kgco2e"
+      regex: "(?i)scope\s*1[^\n]*?(\d[\d,\.]*?)\s*(kg|kilograms)\s*co2e"
+    - name: "scope1_tco2e"
+      regex: "(?i)scope\s*1[^\n]*?(\d[\d,\.]*?)\s*(t|tonnes|tons)\s*co2e"
+  scope2:
+    - name: "scope2_mwh"
+      regex: "(?i)scope\s*2[^\n]*?(\d[\d,\.]*?)\s*mwh"
+  scope3:
+    - name: "scope3_tco2e"
+      regex: "(?i)scope\s*3[^\n]*?(\d[\d,\.]*?)\s*(t|tonnes|tons)\s*co2e"
+  energy:
+    - name: "energy_kwh"
+      regex: "(?i)(electricity|energy)\s*consumption[^\n]*?(\d[\d,\.]*?)\s*kwh"
+  water:
+    - name: "water_m3"
+      regex: "(?i)water[^\n]*?(withdrawal|consumption)[^\n]*?(\d[\d,\.]*?)\s*m\^?3"
+  waste:
+    - name: "waste_tons"
+      regex: "(?i)waste[^\n]*?(generated|total)[^\n]*?(\d[\d,\.]*?)\s*(t|tonnes|tons)"
+  diversity:
+    - name: "women_leadership_pct"
+      regex: "(?i)(women|female)[^\n]*?(leadership|management)[^\n]*?(\d[\d,\.]*?)\s*%"
