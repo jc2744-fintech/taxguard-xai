@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-07-26",
+  "dataset_name": "form990-real-public-smoke-snapshot",
+  "fields_omitted": "Person names, individual compensation rows, addresses, and direct contact information.",
+  "intended_use": "Reproducible smoke tests, data validation, longitudinal profiling, and unsupervised/weak-supervision demonstrations only.",
+  "license_note": "Underlying Form 990 filings are public IRS records. ProPublica Nonprofit Explorer was used as a convenient presentation layer; review its terms for redistribution.",
+  "organizations": 3,
+  "prohibited_interpretation": "No row or score establishes fraud, noncompliance, intent, or legal liability.",
+  "rows": 15,
+  "sha256": "4ea4dc7b45bf6e1f0be560a175f901fdb85bb24b941fb6ce6c70a11c885bd3cf",
+  "sources": [
+    "https://projects.propublica.org/nonprofits/organizations/910564748",
+    "https://projects.propublica.org/nonprofits/organizations/911935159",
+    "https://projects.propublica.org/nonprofits/organizations/910565006"
+  ],
+  "tax_year_max": 2025,
+  "tax_year_min": 2020,
+  "version": "1.0.0"
+}
